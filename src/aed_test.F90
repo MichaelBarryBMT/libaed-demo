@@ -93,7 +93,7 @@ SUBROUTINE aed_define_test(data, namlst)
 !
 !-------------------------------------------------------------------------------
 !BEGIN
-   print *,"        aed_test configuration"
+   ! BMT print *,"        aed_test configuration"
 
    data%id_tst_lh = aed_locate_global('layer_ht')
    data%id_tst_pel = aed_define_variable("pel",'mmol/m**3','test_pel', zero_)
