@@ -149,7 +149,7 @@ SUBROUTINE aed_define_testptm(data, namlst)
    read(namlst,nml=aed_testptm,iostat=status)
    IF (status /= 0) STOP 'Error reading namelist aed_testptm'
 
-   print *,"        aed_testptm initialization"
+   ! BMT print *,"        aed_testptm initialization"
 
    if ( extra_diag ) diag_level = 10
 
